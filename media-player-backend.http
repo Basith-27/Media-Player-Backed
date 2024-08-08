@@ -1,0 +1,6 @@
+@media_player_backend_HostAddress = http://localhost:5257
+
+GET {{media_player_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QWyhygnMFsGQ4QZceDH3b+oOWEGnJR9OS3ZECtHNoKQ=",
+  "Source": "media-player-backend",
+  "BasePath": "_content/media-player-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
