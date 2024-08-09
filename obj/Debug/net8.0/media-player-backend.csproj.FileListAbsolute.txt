@@ -43,3 +43,4 @@ E:\27Tech\Media Player\media-player-backend\media-player-backend\obj\Debug\net8.
 E:\27Tech\Media Player\media-player-backend\media-player-backend\obj\Debug\net8.0\media-player-backend.pdb
 E:\27Tech\Media Player\media-player-backend\media-player-backend\obj\Debug\net8.0\media-player-backend.genruntimeconfig.cache
 E:\27Tech\Media Player\media-player-backend\media-player-backend\obj\Debug\net8.0\ref\media-player-backend.dll
+E:\27Tech\Media Player\media-player-backend\media-player-backend\obj\Debug\net8.0\media-player-backend.sourcelink.json
