@@ -16,5 +16,6 @@ namespace media_player_backend.Services
         }
 
         public IMongoCollection<Video> Videos => _database.GetCollection<Video>("Videos");
+        public IMongoCollection<WatchHistory> WatchHistories => _database.GetCollection<WatchHistory>("WatchHistories");
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("media-player-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b487614fb61a6d1d9918fbc04042b7be3e6f632d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d57e5cf665cc979c810d31bebe651575e776b4c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("media-player-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("media-player-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

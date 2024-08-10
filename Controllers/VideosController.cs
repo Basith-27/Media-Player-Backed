@@ -27,7 +27,7 @@ namespace media_player_backend.Controllers
         [HttpPost]
         public async Task<ActionResult<Video>> UploadVideo([FromBody] Video video)
         {
-            video.MongoId = ObjectId.GenerateNewId();
+            video.Id = MongoDB.Bson.ObjectId.GenerateNewId().ToString();
             await _context.Videos.InsertOneAsync(video);
             return CreatedAtAction(nameof(GetVideoById), new { id = video.Id }, video);
         }
