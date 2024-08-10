@@ -5,8 +5,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.Configure<MongoDBSettings>(
-    builder.Configuration.GetSection(nameof(MongoDBSettings)));
+// Configure MongoDB settings from environment variables
+builder.Services.Configure<MongoDBSettings>(options =>
+{
+    options.ConnectionString = Environment.GetEnvironmentVariable("MONGODB_CONNECTION_STRING");
+    options.DatabaseName = Environment.GetEnvironmentVariable("MONGODB_DATABASE_NAME");
+});
 
 builder.Services.AddSingleton<MediaPlayerContext>();
 
